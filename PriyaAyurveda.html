@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya Ki Dudh - उत्पाद</title>
+    <style>
+        body {
+            font-family: "Noto Sans Devanagari", Arial, sans-serif;
+            background-color: #fff8e1;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f57c00;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+            gap: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 280px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product-card h2 {
+            font-size: 1.3em;
+            margin: 10px 0 5px;
+        }
+        .product-card p {
+            font-size: 0.95em;
+            color: #555;
+        }
+        .price {
+            font-size: 1.1em;
+            color: #e91e63;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .btn {
+            background-color: #f57c00;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #ef6c00;
+        }
+        .social-buttons {
+            margin-top: 10px;
+        }
+        .social-buttons a {
+            text-decoration: none;
+            margin: 0 5px;
+            font-size: 1.2em;
+            color: #555;
+        }
+        footer {
+            background-color: #f57c00;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Priya Ki Dudh</h1>
+        <p>आपके परिवार के लिए उच्च गुणवत्ता वाला दूध</p>
+    </header>
+
+    <div class="product-container">
+        <!-- Full Cream Milk -->
+        <div class="product-card">
+            <img src="https://i.postimg.cc/NKFXDy1Y/full_cream_milk.jpg" alt="फुल क्रीम दूध">
+            <h2>Priya Ki फुल क्रीम दूध</h2>
+            <p>मोटा और मलाईदार दूध, रोजमर्रा के सेवन और व्यंजनों के लिए उत्तम।</p>
+            <p class="price">₹60 / लीटर</p>
+            <p><strong>फायदे:</strong> हड्डियों को मजबूत बनाता है, ऊर्जा बढ़ाता है, और विटामिन D से भरपूर।</p>
+            <a href="#" class="btn">Buy Now</a>
+            <div class="social-buttons">
+                <a href="#">🔗 शेयर करें</a>
+            </div>
+        </div>
+
+        <!-- Half Cream Milk -->
+        <div class="product-card">
+            <img src="https://i.postimg.cc/NKFXDy1Y/half_cream_milk.jpg" alt="हाफ क्रीम दूध">
+            <h2>Priya Ki हाफ क्रीम दूध</h2>
+            <p>हल्का और स्वास्थ्यवर्धक दूध, जो मध्यम मलाईदार अनुभव देता है।</p>
+            <p class="price">₹50 / लीटर</p>
+            <p><strong>फायदे:</strong> वजन नियंत्रित रखने में मदद करता है, पाचन में सहायक, कैल्शियम से भरपूर।</p>
+            <a href="#" class="btn">Buy Now</a>
+            <div class="social-buttons">
+                <a href="#">🔗 शेयर करें</a>
+            </div>
+        </div>
+
+        <!-- Cow Milk -->
+        <div class="product-card">
+            <img src="https://i.postimg.cc/NKFXDy1Y/cow_milk.jpg" alt="गाय का दूध">
+            <h2>Priya Ki गाय का दूध</h2>
+            <p>ताजा गाय का दूध, सीधे स्वस्थ गायों से प्राप्त, प्राकृतिक और शुद्ध।</p>
+            <p class="price">₹70 / लीटर</p>
+            <p><strong>फायदे:</strong> रोग प्रतिरोधक क्षमता बढ़ाता है, हड्डियों और दांतों के लिए अच्छा, पोषण से भरपूर।</p>
+            <a href="#" class="btn">Buy Now</a>
+            <div class="social-buttons">
+                <a href="#">🔗 शेयर करें</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Priya Ki Dudh. सभी अधिकार सुरक्षित।
+    </footer>
+
+</body>
+</html>
